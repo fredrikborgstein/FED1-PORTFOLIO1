@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fredrik Borgstein</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <!-- Simple Icons CDN -->
+    <!-- No JS required, we use direct SVG links -->
+</head>
+<body>
+  
+    <header class="main-header" role="banner">
+        <div class="header-container">
+            <span class="logo">Fredrik Borgstein</span>
+            <nav class="nav-links" aria-label="Main Navigation">
+                <a href="#projects" aria-label="Projects section">Projects</a>
+                <a href="#about" aria-label="About section">About</a>
+                <a href="#contact" aria-label="Contact section">Contact</a>
+            </nav>
+            <div class="header-socials">
+                <a href="https://github.com/fredrikborgstein" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
+                    <svg width="24" height="24" fill="none" viewBox="0 0 24 24" role="img" aria-label="GitHub"><path fill="#ececec" d="M12 2C6.48 2 2 6.58 2 12.26c0 4.49 2.87 8.3 6.84 9.65.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.17-1.11-1.48-1.11-1.48-.91-.64.07-.63.07-.63 1 .07 1.53 1.04 1.53 1.04 .89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.04A9.32 9.32 0 0 1 12 6.84c.85.004 1.7.12 2.5.34 1.91-1.32 2.75-1.04 2.75-1.04.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.89 0 1.37-.01 2.48-.01 2.82 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"></path></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/fredrikborgstein/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg width="24" height="24" fill="none" viewBox="0 0 24 24" role="img" aria-label="LinkedIn"><rect width="24" height="24" rx="4" fill="#ececec"/><path d="M7.75 17V10.75M7.75 8.75V8.75M12 17V13.25C12 12.0074 13.0074 11 14.25 11C15.4926 11 16.5 12.0074 16.5 13.25V17" stroke="#191724" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7.75" cy="8.75" r="1" fill="#191724"/></svg>
+                </a>
+            </div>
+
+            <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainMenu">
+                <span class="hamburger" aria-hidden="true"></span>
+            </button>
+            <div class="menu-overlay" tabindex="-1" aria-hidden="true"></div>
+            <div class="menu-wrapper" id="mainMenu">
+   
+            </div>
+        </div>
+    </header>
+    <div class="menu-overlay" tabindex="-1" aria-hidden="true"></div>
+    <main>
+
+        <section id="feature" class="feature-section">
+            <div class="feature-content">
+                <h1>Hi, I'm Fredrik Borgstein</h1>
+                <p class="tagline">Software developer, network and security enthusiast, and student at Noroff.</p>
+                <a href="#contact" class="cta-btn" aria-label="Reach out to me">Reach Out</a>
+            </div>
+        </section>
+        <section id="projects" class="projects-section">
+            <h2>My Projects</h2>
+            <div class="projects">
+                <div class="project-card" id="project1">
+                    <img src="./assets/images/Skjermbilde 2025-05-26 220912.webp" alt="Project - 1 - SomethingCode - Exam Project Screenshot">
+                    <h3>SomethingCode</h3>
+                    <p>This project centered around creating a blog based website, with authentication, and use of Noroff APIs to create, show, and edit blogposts.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge" title="HTML5">HTML5</span>
+                        <span class="tech-badge" title="CSS3">CSS3</span>
+                        <span class="tech-badge" title="JavaScript">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/fredrikborgstein/FED1-PE1-fredrikborgstein1" class="project-btn github-btn" target="_blank" aria-label="View Project 1 on GitHub">
+                            <svg width="20" height="20" fill="none" viewBox="0 0 24 24" role="img" aria-label="GitHub">
+                                <path fill="#191724" d="M12 2C6.48 2 2 6.58 2 12.26c0 4.49 2.87 8.3 6.84 9.65.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.17-1.11-1.48-1.11-1.48-.91-.64.07-.63.07-.63 1 .07 1.53 1.04 1.53 1.04 .89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.04A9.32 9.32 0 0 1 12 6.84c.85.004 1.7.12 2.5.34 1.91-1.32 2.75-1.04 2.75-1.04.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.89 0 1.37-.01 2.48-.01 2.82 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"></path>
+                            </svg> GitHub
+                        </a>
+                        <a href="https://splendorous-banoffee-d45d0d.netlify.app/" class="project-btn demo-btn" target="_blank" aria-label="View Project 1 demo">
+                            <svg width="20" height="20" fill="none" viewBox="0 0 24 24" role="img" aria-label="Demo">
+                                <path stroke="#191724" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M7 17l9-9M7 7h9v9"/></svg> Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card" id="project2">
+                    <img src="./assets/images/CSM.webp" alt="Project 2 - Community Science Museum Screenshot">
+                    <h3>Community Science Museum</h3>
+                    <p>We where tasked with creating a website for a community science museum, with a focus on interactive and engaging content, where children where the target audience.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge" title="HTML5">HTML5</span>
+                        <span class="tech-badge" title="CSS3">CSS3</span>
+                        <span class="tech-badge" title="JavaScript">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/fredrikborgstein/semester-project-1" class="project-btn github-btn" target="_blank" aria-label="View Project 2 on GitHub">
+                            <svg width="20" height="20" fill="none" viewBox="0 0 24 24" role="img" aria-label="GitHub">
+                                <path fill="#191724" d="M12 2C6.48 2 2 6.58 2 12.26c0 4.49 2.87 8.3 6.84 9.65.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.17-1.11-1.48-1.11-1.48-.91-.64.07-.63.07-.63 1 .07 1.53 1.04 1.53 1.04 .89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.04A9.32 9.32 0 0 1 12 6.84c.85.004 1.7.12 2.5.34 1.91-1.32 2.75-1.04 2.75-1.04.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.89 0 1.37-.01 2.48-.01 2.82 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"></path>
+                            </svg> GitHub
+                        </a>
+                        <a href="https://phenomenal-biscotti-d7f99b.netlify.app/" class="project-btn demo-btn" target="_blank" aria-label="View Project 2 demo">
+                            <svg width="20" height="20" fill="none" viewBox="0 0 24 24" role="img" aria-label="Demo">
+                                <path stroke="#191724" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M7 17l9-9M7 7h9v9"/></svg> Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card" id="project3">
+                    <img src="./assets/images/gamehub.webp" alt="Project 3 - GameHub Screenshot">
+                    <h3>GameHub</h3>
+                    <p>This project was a challenge where we had to create a website for a game store, with a focus on user experience and engagement.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge" title="HTML5">HTML5</span>
+                        <span class="tech-badge" title="CSS3">CSS3</span>
+                        <span class="tech-badge" title="JavaScript">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/fredrikborgstein/JS1CA" class="project-btn github-btn" target="_blank" aria-label="View Project 3 on GitHub">
+                            <svg width="20" height="20" fill="none" viewBox="0 0 24 24" role="img" aria-label="GitHub">
+                                <path fill="#191724" d="M12 2C6.48 2 2 6.58 2 12.26c0 4.49 2.87 8.3 6.84 9.65.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.17-1.11-1.48-1.11-1.48-.91-.64.07-.63.07-.63 1 .07 1.53 1.04 1.53 1.04 .89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.04A9.32 9.32 0 0 1 12 6.84c.85.004 1.7.12 2.5.34 1.91-1.32 2.75-1.04 2.75-1.04.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.89 0 1.37-.01 2.48-.01 2.82 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"></path>
+                            </svg> GitHub
+                        </a>
+                        <a href="https://starlit-paletas-89af7c.netlify.app/" class="project-btn demo-btn" target="_blank" aria-label="View Project 3 demo">
+                            <svg width="20" height="20" fill="none" viewBox="0 0 24 24" role="img" aria-label="Demo">
+                                <path stroke="#191724" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M7 17l9-9M7 7h9v9"/></svg> Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about-section">
+            <div class="about-card">
+                <div class="about-photo-col">
+                    <img src="./assets/images/338874235_1387641022051660_4287473197507939255_n.webp" alt="Your Photo" class="about-photo">
+                </div>
+                <div class="about-info-col">
+                    <h2>Who am I?</h2>
+                    <h3 class="about-subtitle">Developer, fullstack, with education in web development and network security.</h3>
+                    <p class="about-intro">Enthusiastic developer with a passion for creating engaging, accessible, and performant web experiences. Both on the frontend, and the backend.</p>
+                    <ul class="experience-list modern-list">
+                        <li><span class="exp-icon">💼</span> 1+ years of experience in web development</li>
+                        <li><span class="exp-icon">🌍</span> Experience building accessible, user-focused websites</li>
+                        <li><span class="exp-icon">⚡</span> Skilled at creating fast, responsive interfaces with modern tech</li>
+                        <li><span class="exp-icon">🎨</span> Strong eye for UI design and usability best practices</li>
+                    </ul>
+                    <a href="#" class="cv-btn" download aria-label="Download my CV">Download CV</a>
+                    <div class="tech-stack">
+    <span class="tech-label">Tech Stack:</span>
+    <span class="tech-icon html5" title="HTML5">
+        <span class="tech-tooltip">HTML5</span>
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg" alt="HTML5 icon" style="width:2.1rem;height:2.1rem;" />
+    </span>
+    <span class="tech-icon css3" title="CSS3">
+        <span class="tech-tooltip">CSS3</span>
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg" alt="CSS3 icon" style="width:2.1rem;height:2.1rem;" />
+    </span>
+    <span class="tech-icon javascript" title="JavaScript">
+        <span class="tech-tooltip">JavaScript</span>
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg" alt="JavaScript icon" style="width:2.1rem;height:2.1rem;" />
+    </span>
+    <span class="tech-icon laravel" title="Laravel">
+        <span class="tech-tooltip">Laravel</span>
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/laravel.svg" alt="Laravel icon" style="width:2.1rem;height:2.1rem;" />
+    </span>
+    <span class="tech-icon php" title="PHP">
+        <span class="tech-tooltip">PHP</span>
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg" alt="PHP icon" style="width:2.1rem;height:2.1rem;" />
+    </span>
+    <span class="tech-icon mariadb" title="MariaDB">
+        <span class="tech-tooltip">MariaDB</span>
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mariadb.svg" alt="MariaDB icon" style="width:2.1rem;height:2.1rem;" />
+    </span>
+    <span class="tech-icon mysql" title="MySQL">
+        <span class="tech-tooltip">MySQL</span>
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg" alt="MySQL icon" style="width:2.1rem;height:2.1rem;" />
+    </span>
+    <span class="tech-icon tailwindcss" title="Tailwind CSS">
+        <span class="tech-tooltip">Tailwind</span>
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tailwindcss.svg" alt="Tailwind CSS icon" style="width:2.1rem;height:2.1rem;" />
+    </span>
+    <span class="tech-icon express" title="Express.js">
+        <span class="tech-tooltip">Express</span>
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/express.svg" alt="Express.js icon" style="width:2.1rem;height:2.1rem;" />
+    </span>
+</div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <div class="contact-card">
+                <h2>Contact</h2>
+                <h3 class="contact-subtitle">Let’s Connect!</h3>
+                <p class="contact-message">Have a question, collaboration idea, or just want to say hi? Fill out the form below and I’ll get back to you soon.</p>
+                <form class="contact-form" autocomplete="off">
+                    <div class="input-group">
+                        <span class="input-icon">👤</span>
+                        <input type="text" name="name" placeholder="Your Name" aria-label="Your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-icon">📧</span>
+                        <input type="email" name="email" placeholder="Your Email" aria-label="Your Email" required>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-icon">💬</span>
+                        <textarea name="message" placeholder="Your Message" aria-label="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="contact-btn" aria-label="Send message">Send Message</button>
+                    <div class="form-feedback" style="display:none;"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div>
+            <span>&copy; 2025 Fredrik Borgstein. All rights reserved.</span>
+        </div>
+    </footer>
+    <button id="backToTop" aria-label="Back to top" tabindex="0">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Back to top">
+            <path d="M7 15l5-5 5 5" stroke="#191724" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>
